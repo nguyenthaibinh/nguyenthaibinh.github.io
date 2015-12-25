@@ -215,7 +215,8 @@ td {
 /* Header */
 
 header {
-	background-color: #171717;
+	/* background-color: #171717; */
+	background-color: #C30000;
 	color: #FDFDFB;
   width:170px;
   float:left;
