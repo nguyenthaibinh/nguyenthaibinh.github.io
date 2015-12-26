@@ -215,10 +215,8 @@ td {
 /* Header */
 
 header {
-	/* background-color: #171717; */
-	/* background-color: #888; */
-	/* color: #FDFDFB; */
-	color: #C30000;
+	background-color: #171717;
+	color: #FDFDFB;
   width:170px;
   float:left;
   position:fixed;
@@ -235,12 +233,12 @@ header {
 }
 
 p.header {
-	font-size: 14px;
+	font-size: 16px;
 }
 
 h1.header {
 	font-family: Arvo, sans-serif;
-	font-size: 25px;
+	font-size: 30px;
 	font-weight: 300;
 	line-height: 1.3em;
 	border-bottom: none;
