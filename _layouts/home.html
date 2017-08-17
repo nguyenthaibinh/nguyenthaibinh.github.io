@@ -136,7 +136,7 @@
 
         // Set checkboxes
         var all_subs = ['ML', 'CV', 'NLP', 'RO', 'GR'];
-        var subs = store.get('aideadlin.es');
+        //var subs = store.get('aideadlin.es');
         if (subs === undefined) {
           subs = all_subs;
           for (var i = 0; i < subs.length; i++) {
@@ -153,7 +153,7 @@
             $('.' + all_subs[i] + '-conf').hide();
           }
         }
-        store.set('aideadlin.es', subs);
+        //store.set('aideadlin.es', subs);
 
         // Event handler on checkbox change
         $('form :checkbox').change(function(e) {
@@ -172,7 +172,7 @@
               subs.splice(idx, 1);
           }
           console.log(subs);
-          store.set('aideadlin.es', subs);
+          //store.set('aideadlin.es', subs);
         });
     });
     <!-- Google analytics -->
