@@ -193,12 +193,12 @@
   sub: ML
 
 - name: ECML-PKDD
-  year: 2017
-  id: ecml17
-  link: http://ecmlpkdd2017.ijs.si/
-  deadline: "2017-04-13 23:59:59"
-  date: September 18-22, 2017
-  place: Skopje, Macedonia
+  year: 2018
+  id: ecml18
+  link: http://www.ecmlpkdd2018.org/
+  deadline: "2017-08-27 23:59:59"
+  date: September 10-14, 2018
+  place: Dublin, Ireland
   sub: ML
 
 - name: EMNLP
