@@ -99,7 +99,7 @@
 
 - name: ECIR
   year: 2018
-  id: ecir2018
+  id: ecir18
   link: http://www.robot-learning.org
   deadline: "2017-10-16 23:59:59"
   timezone: America/Los_Angeles
