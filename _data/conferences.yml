@@ -3,9 +3,9 @@
 - name: ICDE
   year: 2018
   id: icde18
-  link: http://www.aaai.org/Conferences/AAAI/aaai18.php
+  link: https://icde2018.org/
   deadline: "2017-09-29 23:59:59"
-  timezone: Pacific/Honolulu
+  timezone: US PDT
   date: April 16-20, 2018
   place: Paris, France
   sub: DM
@@ -41,9 +41,9 @@
 - name: WWW
   year: 2018
   id: www18
-  link: http://cvpr2018.thecvf.com/
+  link: https://www2018.thewebconf.org/
   deadline: "2017-10-31 18:00:00"
-  timezone: Pacific/Honolulu
+  timezone: HAST
   date: April 23-27, 2018
   place: Lyon, France
   sub: DM
@@ -51,8 +51,9 @@
 - name: SIAM SDM
   year: 2018
   id: sdm2018
-  link: http://naacl2018.org/
+  link: http://www.siam.org/meetings/sdm18/
   deadline: "2017-10-13 23:59:59"
+  timezone: US Pacific Time
   date: May 3-5, 2018
   place: San Diego, California, USA
   sub: DM
@@ -70,7 +71,7 @@
 - name: ACM UIU
   year: 2018
   id: uiu18
-  link: http://acl2018.org/
+  link: http://iui.acm.org/2018/
   deadline: "2017-10-01"
   timezone: GMT
   date: March 7-11, 2018
@@ -80,7 +81,7 @@
 - name: PAKDD
   year: 2018
   id: pakdd18
-  link: https://eccv2018.org/
+  link: http://prada-research.net/pakdd18/
   deadline: "2017-10-31"
   timezone: GMT
   date: May 15-18, 2018
@@ -90,17 +91,17 @@
 - name: CHIIR
   year: 2018
   id: chiir18
-  link: http://irc.cs.sdu.edu.cn/3dv/
+  link: http://sigir.org/chiir2018/
   deadline: "2017-10-01 23:59:59"
   timezone: Asia/Hong_Kong
   date: March 11-15, 2018
-  place: New Jersey, USA
+  place: New Brunswick, New Jersey, USA
   sub: DM
 
 - name: ECIR
   year: 2018
   id: ecir18
-  link: http://www.robot-learning.org
+  link: https://www.ecir2018.org/
   deadline: "2017-10-16 23:59:59"
   timezone: America/Los_Angeles
   date: March 25-29, 2018
