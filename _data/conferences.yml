@@ -108,6 +108,24 @@
   place: Grenoble, France
   sub: DM
 
+- name: ECML-PKDD
+  year: 2018
+  id: ecml18
+  link: http://www.ecmlpkdd2018.org/
+  deadline: "2017-08-27 23:59:59"
+  date: September 10-14, 2018
+  place: Dublin, Ireland
+  sub: ML
+
+- name: RecSys
+  year: 2018
+  id: recsys18
+  link: https://recsys.acm.org/recsys18preview/
+  deadline: "TBA"
+  date: October 2-7, 2018
+  place:  Vancouver, Canada
+  sub: RS
+
 - name: NIPS
   year: 2017
   id: nips17
@@ -190,15 +208,6 @@
   timezone: Pacific/Samoa
   date: August 11-15, 2017
   place: Sydney, Australia
-  sub: ML
-
-- name: ECML-PKDD
-  year: 2018
-  id: ecml18
-  link: http://www.ecmlpkdd2018.org/
-  deadline: "2017-08-27 23:59:59"
-  date: September 10-14, 2018
-  place: Dublin, Ireland
   sub: ML
 
 - name: EMNLP
