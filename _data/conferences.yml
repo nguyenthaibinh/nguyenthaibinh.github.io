@@ -1,5 +1,15 @@
 ---
 
+- name: ICDE
+  year: 2018
+  id: icde18
+  link: http://www.aaai.org/Conferences/AAAI/aaai18.php
+  deadline: "2017-09-29 23:59:59"
+  timezone: Pacific/Honolulu
+  date: April 16-20, 2018
+  place: Paris, France
+  sub: ML,DM,RS
+
 - name: AAAI
   year: 2018
   id: aaai18
@@ -36,7 +46,7 @@
   date: April 30-May 3, 2018
   place: Vancouver Convention Center, Vancouver, Canada
   sub: ML
-  
+
 - name: CVPR
   year: 2018
   id: cvpr18
