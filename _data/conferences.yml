@@ -8,7 +8,7 @@
   timezone: Pacific/Honolulu
   date: April 16-20, 2018
   place: Paris, France
-  sub: ML,DM,RS
+  sub: DM
 
 - name: AAAI
   year: 2018
@@ -47,23 +47,23 @@
   place: Vancouver Convention Center, Vancouver, Canada
   sub: ML
 
-- name: CVPR
+- name: WWW
   year: 2018
-  id: cvpr18
+  id: www18
   link: http://cvpr2018.thecvf.com/
-  deadline: "2017-11-15 18:00:00"
-  timezone: America/Los_Angeles
-  date: June 18-23, 2018
-  place: Salt Lake City, Utah
-  sub: CV
+  deadline: "2017-10-31 18:00:00"
+  timezone: Pacific/Honolulu
+  date: April 23-27, 2018
+  place: Lyon, France
+  sub: DM
 
-- name: NAACL
+- name: SIAM SDM
   year: 2018
-  id: naacl18
+  id: sdm2018
   link: http://naacl2018.org/
-  deadline: "2017-12-15 23:59:59"
-  date: June 2-4, 2018
-  place: New Orleans, USA
+  deadline: "2017-10-13 23:59:59"
+  date: May 3-5, 2018
+  place: San Diego, California, USA
   sub: NLP
 
 - name: MLDM
@@ -76,45 +76,45 @@
   place: New York City, New York, USA
   sub: ML
 
-- name: ACL
+- name: ACM UIU
   year: 2018
-  id: acl18
+  id: uiu18
   link: http://acl2018.org/
-  deadline: "TBA"
+  deadline: "2017-10-01"
   timezone: GMT
-  date: July 15-20, 2018
-  place: Melbourne, Australia
-  sub: NLP
+  date: March 7-11, 2018
+  place: Tokyo, Japan
+  sub: DM
 
-- name: ECCV
+- name: PAKDD
   year: 2018
-  id: eccv18
+  id: pakdd18
   link: https://eccv2018.org/
-  deadline: "TBA"
+  deadline: "2017-10-31"
   timezone: GMT
-  date: September 8-14, 2018
-  place: Munich, Germany
-  sub: CV
+  date: May 15-18, 2018
+  place: Melbourn, Australia
+  sub: DM
 
-- name: 3DV
-  year: 2017
-  id: 3dv17
+- name: CHIIR
+  year: 2018
+  id: chiir18
   link: http://irc.cs.sdu.edu.cn/3dv/
-  deadline: "2017-07-25 23:59:59"
+  deadline: "2017-10-01 23:59:59"
   timezone: Asia/Hong_Kong
-  date: October 10-12, 2017
-  place: Qingdao, China
-  sub: CV
+  date: March 11-15, 2018
+  place: New Jersey, USA
+  sub: DM
 
-- name: CoRL
-  year: 2017
-  id: corl17
+- name: ECIR
+  year: 2018
+  id: ecir2018
   link: http://www.robot-learning.org
-  deadline: "2017-06-28 23:59:59"
+  deadline: "2017-10-16 23:59:59"
   timezone: America/Los_Angeles
-  date: November 13-15, 2017
-  place: Mountain View, California
-  sub: RO
+  date: March 25-29, 2018
+  place: Grenoble, France
+  sub: IR
 
 - name: NIPS
   year: 2017
