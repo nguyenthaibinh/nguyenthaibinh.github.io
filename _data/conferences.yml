@@ -219,4 +219,14 @@
   date: September 7-11, 2017
   place: Copenhagen, Denmark
   sub: NLP
+  
+  - name: IUI
+  year: 2018
+  id: iui18
+  link: http://iui.acm.org/2018/call_for_papers.html
+  deadline: "2017-10-08 23:59:59"
+  timezone: US PDT
+  date: March 7-11, 2018
+  place: Tokyo, Japan
+  sub: RS
 
