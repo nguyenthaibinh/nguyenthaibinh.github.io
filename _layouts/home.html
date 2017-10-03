@@ -71,13 +71,6 @@
                           </label>
                         </div>
                       </div>
-                      <div class="col-md-3 col-xs-5">
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox" id="NLP-checkbox">NLP
-                          </label>
-                        </div>
-                      </div>
                     </div>
                   </form>
                 <!-- </div> -->
@@ -135,7 +128,7 @@
         {% endfor %}
 
         // Set checkboxes
-        var all_subs = ['ML', 'DM', 'RS', 'NLP', 'IR'];
+        var all_subs = ['ML', 'DM', 'RS', 'IR'];
         subs = all_subs;
         //var subs = store.get('aideadlin.es');
         if (subs === undefined) {
