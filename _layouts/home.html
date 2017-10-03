@@ -46,6 +46,13 @@
                       <div class="col-md-2 col-xs-5">
                         <div class="checkbox">
                           <label>
+                            <input type="checkbox" id="RS-checkbox">Recommender Systems
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-md-2 col-xs-5">
+                        <div class="checkbox">
+                          <label>
                             <input type="checkbox" id="ML-checkbox">Machine Learning
                           </label>
                         </div>
@@ -57,17 +64,24 @@
                           </label>
                         </div>
                       </div>
-                      <div class="col-md-3 col-xs-5">
+                      <div class="col-md-2 col-xs-5">
                         <div class="checkbox">
                           <label>
-                            <input type="checkbox" id="NLP-checkbox">Natural Language Processing
+                            <input type="checkbox" id="IR-checkbox">Information Retrieval
                           </label>
                         </div>
                       </div>
                       <div class="col-md-2 col-xs-5">
                         <div class="checkbox">
                           <label>
-                            <input type="checkbox" id="RS-checkbox">Recommender Systems
+                            <input type="checkbox" id="AI-checkbox">Artifical Intelligence
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-xs-5">
+                        <div class="checkbox">
+                          <label>
+                            <input type="checkbox" id="NLP-checkbox">Natural Language Processing
                           </label>
                         </div>
                       </div>
@@ -128,7 +142,7 @@
         {% endfor %}
 
         // Set checkboxes
-        var all_subs = ['ML', 'DM', 'RS', 'NLP'];
+        var all_subs = ['ML', 'DM', 'RS', 'NLP', 'IR', 'AI'];
         subs = all_subs;
         //var subs = store.get('aideadlin.es');
         if (subs === undefined) {
