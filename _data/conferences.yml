@@ -200,23 +200,3 @@
   place: Vancouver, Canada
   sub: NLP
 
-- name: UAI
-  year: 2017
-  id: uai17
-  link: http://auai.org/uai2017/index.php
-  deadline: "2017-03-31 23:59:59"
-  timezone: Pacific/Samoa
-  date: August 11-15, 2017
-  place: Sydney, Australia
-  sub: ML
-
-  - name: IUI
-  year: 2018
-  id: iui18
-  link: http://iui.acm.org/2018/call_for_papers.html
-  deadline: "2017-10-08 23:59:59"
-  timezone: US PDT
-  date: March 7-11, 2018
-  place: Tokyo, Japan
-  sub: RS
-
