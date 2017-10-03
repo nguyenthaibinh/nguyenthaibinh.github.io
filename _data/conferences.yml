@@ -210,16 +210,6 @@
   place: Sydney, Australia
   sub: ML
 
-- name: EMNLP
-  year: 2017
-  id: emnlp17
-  link: http://emnlp2017.net/
-  deadline: "2017-04-14 23:59:59"
-  timezone: America/Los_Angeles
-  date: September 7-11, 2017
-  place: Copenhagen, Denmark
-  sub: NLP
-
   - name: IUI
   year: 2018
   id: iui18
