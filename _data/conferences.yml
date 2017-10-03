@@ -171,22 +171,3 @@
   date: Aug 13-17, 2017
   place: Halifax, Nova Scotia, Canada
   sub: DM
-
-- name: COLT
-  year: 2017
-  id: colt17
-  link: http://www.learningtheory.org/colt2017/
-  deadline: "2017-02-17 23:00:00"
-  date: July 7-10, 2017
-  place: University of Amsterdam, The Netherlands
-  sub: ML
-
-  - name: IUI
-  year: 2018
-  id: iui18
-  link: http://iui.acm.org/2018/call_for_papers.html
-  deadline: "2017-10-08 23:59:59"
-  timezone: US PDT
-  date: March 7-11, 2018
-  place: Tokyo, Japan
-  sub: RS
