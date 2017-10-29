@@ -21,6 +21,7 @@
     <script src="{{ "/static/js/store.min.js" | prepend:site.baseurl }}"></script>
   </head>
   <body>
+    {% include header.html %}
     <div class="top-strip"></div>
     <div class="container">
         <div class="page-header">
@@ -176,5 +177,10 @@
       ga('create', '{{ site.ga_id }}', 'auto');
       ga('send', 'pageview');
     </script>
+    <main class="page-footer">
+      <div class="wrapper">
+    {% include footer.html %}
+    </div>
+    </main>
   </body>
 </html>
