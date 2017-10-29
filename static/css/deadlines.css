@@ -53,7 +53,7 @@ p {
   text-align: justify;
 }
 
-a {
+a.underline {
   text-decoration: none;
   border-bottom: 1px solid #ccc;
   color: inherit;
