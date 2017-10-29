@@ -12,3 +12,7 @@
   .col-md-1, .col-md-2{
   float: left;
   }
+
+div{
+  display: block;
+}
