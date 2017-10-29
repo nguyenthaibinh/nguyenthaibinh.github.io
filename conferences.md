@@ -1,6 +1,6 @@
 layout: page
-title: About
-permalink: /conferences/
+title: Conferences
+permalink: /conf/
 ---
 <div class="container">
 <h3>Interest conferences</h3>
