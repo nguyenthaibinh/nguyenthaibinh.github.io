@@ -12,6 +12,7 @@
     <title>{{ site.title }}</title>
     <meta name="description" content="{{ site.description }}">
     <link rel="stylesheet" type="text/css" href="{{ "/static/css/bootstrap.min.css" | prepend:site.baseurl }}">
+    <link rel="stylesheet" type="text/css" href="{{ "/static/css/homepage.css" | prepend:site.baseurl }}">
     <link rel="stylesheet" type="text/css" href="{{ "/static/css/deadlines.css" | prepend:site.baseurl }}" media="screen,projection">
     <link rel="shortcut icon" href="{{ "/static/img/favicon.png" | prepend:site.baseurl }}">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -19,22 +20,6 @@
     <script src="{{ "/static/js/moment.min.js" | prepend:site.baseurl }}"></script>
     <script src="{{ "/static/js/moment-timezone-with-data.min.js" | prepend:site.baseurl }}"></script>
     <script src="{{ "/static/js/store.min.js" | prepend:site.baseurl }}"></script>
-    <style>
-    .col-md-1, .col-md-2{
-      position: relative;
-      min-height: 1px;
-      padding-left: 15px;
-      padding-right: 15px;
-    }
-    @media (min-width: 992px)
-    .col-md-1 {
-      width: 25%;
-    }
-    @media (min-width: 992px)
-    .col-md-1, .col-md-2{
-    float: left;
-    }
-    </style>
   </head>
   <body>
     <div class="top-strip"></div>
