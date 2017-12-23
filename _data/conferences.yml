@@ -1,166 +1,23 @@
 ---
 
-- name: ICDE
+- name: ICDM
   year: 2018
-  id: icde18
-  link: https://icde2018.org/
-  deadline: "2017-09-29 23:59:59"
-  timezone: US PDT
-  date: April 16-20, 2018
-  place: Paris, France
-  sub: DM
-
-- name: AAAI
-  year: 2018
-  id: aaai18
-  link: http://www.aaai.org/Conferences/AAAI/aaai18.php
-  deadline: "2017-09-11 23:59:59"
-  timezone: Pacific/Honolulu
-  date: February 2-7, 2018
-  place: New Orleans, Lousiana, USA
-  sub: ML
-
-- name: AISTATS
-  year: 2018
-  id: aistats18
-  link: http://www.aistats.org/
-  deadline: "2017-10-13 23:59:59"
-  date: April 9-11, 2018
-  place: Lanzarote, Spain
-  sub: ML
-
-- name: ICLR
-  year: 2018
-  id: iclr18
-  link: http://iclr.cc/
-  deadline: "2017-10-27 17:00:00"
-  date: April 30-May 3, 2018
-  place: Vancouver Convention Center, Vancouver, Canada
-  sub: ML
-
-- name: WWW
-  year: 2018
-  id: www18
-  link: https://www2018.thewebconf.org/
-  deadline: "2017-10-31 18:00:00"
-  timezone: HAST
-  date: April 23-27, 2018
-  place: Lyon, France
-  sub: DM
-
-- name: SIAM SDM
-  year: 2018
-  id: sdm2018
-  link: http://www.siam.org/meetings/sdm18/
-  deadline: "2017-10-13 23:59:59"
-  timezone: US Pacific Time
-  date: May 3-5, 2018
-  place: San Diego, California, USA
-  sub: DM
-
-- name: MLDM
-  year: 2018
-  id: mldm18
-  link: http://www.mldm.de/mldm2018.php
-  deadline: "2018-01-15 23:59:59"
-  timezone: America/Los_Angeles
-  date: July 14-19, 2018
-  place: New York City, New York, USA
-  sub: ML
-
-- name: ACM UIU
-  year: 2018
-  id: uiu18
-  link: http://iui.acm.org/2018/
-  deadline: "2017-10-01"
-  timezone: GMT
-  date: March 7-11, 2018
-  place: Tokyo, Japan
-  sub: RS
-
-- name: PAKDD
-  year: 2018
-  id: pakdd18
-  link: http://prada-research.net/pakdd18/
-  deadline: "2017-10-31"
-  timezone: GMT
-  date: May 15-18, 2018
-  place: Melbourn, Australia
-  sub: DM
-
-- name: CHIIR
-  year: 2018
-  id: chiir18
-  link: http://sigir.org/chiir2018/
-  deadline: "2017-10-01 23:59:59"
-  timezone: Asia/Hong_Kong
-  date: March 11-15, 2018
-  place: New Brunswick, New Jersey, USA
-  sub: DM
-
-- name: ECIR
-  year: 2018
-  id: ecir18
-  link: https://www.ecir2018.org/
-  deadline: "2017-10-16 23:59:59"
-  timezone: America/Los_Angeles
-  date: March 25-29, 2018
-  place: Grenoble, France
-  sub: IR
-
-- name: ECML-PKDD
-  year: 2018
-  id: ecml18
-  link: http://www.ecmlpkdd2018.org/
-  deadline: "2017-08-27 23:59:59"
-  date: September 10-14, 2018
-  place: Dublin, Ireland
-  sub: ML
-
-- name: RecSys
-  year: 2018
-  id: recsys18
-  link: https://recsys.acm.org/recsys18preview/
+  id: icdm2018
+  link: http://icdm2018.org/
   deadline: "TBA"
-  date: October 2-7, 2018
-  place:  Vancouver, Canada
-  sub: RS
-
-- name: NIPS
-  year: 2017
-  id: nips17
-  link: https://nips.cc/Conferences/2017
-  deadline: "2017-05-19 13:00:00"
-  timezone: America/Los_Angeles
-  date: December 4-9, 2017
-  place: Long Beach Convention Center, California
-  sub: ML
-
-- name: RANLP
-  year: 2017
-  id: ranlp17
-  link: http://www.lml.bas.bg/ranlp2017
-  deadline: "2017-04-28 23:59:59"
-  date: September 4-6 2017
-  place: Varna, Bulgaria
-  sub: NLP
-
-- name: ICML
-  year: 2017
-  id: icml17
-  link: http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=53557&copyownerid=90838
-  deadline: "2017-02-24 23:59:59"
-  date: Aug 6-11, 2017
-  place: Sydney, Australia
-  sub: ML
+  timezone: US PDT
+  date: November 17-20, 2018
+  place: Singapore
+  sub: DM
 
 - name: IJCAI
-  year: 2017
-  id: ijcai17
-  link: http://ijcai-17.org/
-  deadline: "2017-02-19 23:59:59"
-  date: Aug 19-25, 2017
-  place: Melbourne, Australia
+  year: 2018
+  id: ijcai2018
+  link: http://www.ijcai-18.org/
+  deadline: "2018-01-31"
+  timezone: Pacific/Honolulu
+  date: July 13-19, 2018
+  place: Stockhom, Sweden
   sub: ML
 
 - name: KDD
