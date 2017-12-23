@@ -58,3 +58,13 @@
   place: Singapore
   sub: DM
 
+- name: ECML-PKDD
+  year: 2018
+  id: ecml2018
+  link: http://www.ecmlpkdd2018.org/
+  deadline: "TBA"
+  timezone: US PDT
+  date: 10–14 September, 2018
+  place: Dublin, Ireland
+  sub: DM
+
