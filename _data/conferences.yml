@@ -1,15 +1,4 @@
 ---
-
-- name: ICDM
-  year: 2018
-  id: icdm2018
-  link: http://icdm2018.org/
-  deadline: "TBA"
-  timezone: US PDT
-  date: November 17-20, 2018
-  place: Singapore
-  sub: DM
-
 - name: IJCAI
   year: 2018
   id: ijcai2018
@@ -21,10 +10,41 @@
   sub: ML
 
 - name: KDD
-  year: 2017
-  id: kdd17
-  link: http://www.kdd.org/kdd2017/
-  deadline: "2017-02-18 05:59:59"
-  date: Aug 13-17, 2017
-  place: Halifax, Nova Scotia, Canada
+  year: 2018
+  id: kdd2018
+  link: http://www.kdd.org/kdd2018/
+  deadline: "February 11, 2018"
+  date: 19-23 August, 2018
+  place: London, United Kingdom
   sub: DM
+
+- name: RecSys
+  year: 2018
+  id: recsys2018
+  link: http://icdm2018.org/
+  deadline: "TBA"
+  timezone: US PDT
+  date: November 17-20, 2018
+  place: Singapore
+  sub: RM
+
+- name: CIKM
+  year: 2018
+  id: cikm2018
+  link: http://www.cikm2018.units.it/
+  abstract: "May 15, 2018"
+  deadline: "May 22, 2018"
+  date: 22 - 26 October 2018
+  place: Turin, Italy
+  sub: DM
+
+- name: ICDM
+  year: 2018
+  id: icdm2018
+  link: http://icdm2018.org/
+  deadline: "TBA"
+  timezone: US PDT
+  date: November 17-20, 2018
+  place: Singapore
+  sub: DM
+
