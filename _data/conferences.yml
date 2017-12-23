@@ -1,4 +1,14 @@
 ---
+- name: SIGIR
+  year: 2018
+  id: sigir2018
+  link: http://sigir.org/sigir2018/
+  deadline: "Jan 29 2018"
+  timezone: Pacific/Honolulu
+  date: July 8-12, 2018
+  place: Ann Arbor Michigan, USA
+  sub: IR
+
 - name: IJCAI
   year: 2018
   id: ijcai2018
