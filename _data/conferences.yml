@@ -62,9 +62,19 @@
   year: 2018
   id: ecml2018
   link: http://www.ecmlpkdd2018.org/
-  deadline: "TBA"
+  deadline: "April 12, 2018"
   timezone: US PDT
   date: 10–14 September, 2018
   place: Dublin, Ireland
+  sub: DM
+
+- name: ISWC
+  year: 2018
+  id: iswc2018
+  link: http://iswc2018.semanticweb.org/
+  deadline: "April 6, 2018"
+  timezone: Hawaii time
+  date: 8-12 October, 2018
+  place: Monterey, California, USA
   sub: DM
 
