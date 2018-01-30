@@ -114,7 +114,6 @@
             $('#{{conf.id}}').addClass('past');
         {% endif %}
         {% if conf.abstract == "TBA" %}
-          $('#{{conf.id}} .timer').html("TBA");
           $('#{{conf.id}} .abstract-time').html("TBA");
         {% else %}
           // adjust date according to deadline timezone
@@ -133,7 +132,6 @@
             $('#{{conf.id}}').addClass('past');
         {% endif %}
         {% if conf.notification == "TBA" %}
-          $('#{{conf.id}} .timer').html("TBA");
           $('#{{conf.id}} .notification-time').html("TBA");
         {% else %}
           // adjust date according to deadline timezone
