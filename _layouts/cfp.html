@@ -74,12 +74,12 @@
                     <span class="abstract-time"></span>
                   </div>
                 </div>
-                <div class="deadline">
+                <div class="deadline abstract">
                   <div>Deadline:
                     <span class="deadline-time"></span>
                   </div>
                 </div>
-                <div class="deadline">
+                <div class="deadline notification">
                   <div>Notification:
                     <span class="notification-time"></span>
                   </div>
@@ -122,7 +122,7 @@
           absDate = confDate.toString()
             if (absDate == "Invalid date")
           // $('#{{conf.id}} .abstract-time').html("This is not a date");
-          $('#{{conf.id}}').addClass('hidden');
+          $('#{{conf.id}}' .abstract).addClass('hidden');
           else
             $('#{{conf.id}} .abstract-time').html(absDate);
 
