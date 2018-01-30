@@ -87,6 +87,10 @@ footer {
   opacity: 0.5;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 .deadline, .meta {
   font-size: 13px;
 }
