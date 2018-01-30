@@ -121,7 +121,7 @@
           var confDate = moment.tz("{{conf.abstract}}", timezone);
           absDate = confDate.toString()
             if (absDate == "Invalid date")
-          $('#{{conf.id}} .abstract-time').html("This is not a date");
+          // $('#{{conf.id}} .abstract-time').html("This is not a date");
           $('#{{conf.id}}').addClass('hidden');
           else
             $('#{{conf.id}} .abstract-time').html(absDate);
