@@ -108,6 +108,25 @@
           if (today.diff(confDate) > 0)
             $('#{{conf.id}}').addClass('past');
         {% endif %}
+        {% if conf.abstract == "TBA" %}
+          $('#{{conf.id}} .timer').html("TBA");
+          $('#{{conf.id}} .abstract-time').html("TBA");
+        {% else %}
+          // adjust date according to deadline timezone
+          var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
+          var confDate = moment.tz("{{conf.abstract}}", timezone);
+
+          // render countdown timer
+          $('#{{conf.id}} .timer').countdown(confDate.toDate(), function(event) {
+              $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+          });
+          $('#{{conf.id}} .abstract-time').html(confDate.toString());
+
+          // check if date has passed, add 'past' class to it
+          var today = moment();
+          if (today.diff(confDate) > 0)
+            $('#{{conf.id}}').addClass('past');
+        {% endif %}
         {% endfor %}
 
         // Set checkboxes
