@@ -119,7 +119,7 @@
           // adjust date according to deadline timezone
           var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
           var confDate = moment.tz("{{conf.abstract}}", timezone);
-          absDate = absData.toString()
+          absDate = confDate.toString()
             if (absDate == "Invalid date")
           $('#{{conf.id}} .abstract-time').html("This is not a date");
           else
