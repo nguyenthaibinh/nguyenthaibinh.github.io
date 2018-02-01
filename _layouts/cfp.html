@@ -107,7 +107,7 @@
               $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
           });
           var d = confDate.toDate();
-          $('#{{conf.id}} .deadline-time').html(d);
+          $('#{{conf.id}} .deadline-time').html(d.toString());
 
           // check if date has passed, add 'past' class to it
           var today = moment();
