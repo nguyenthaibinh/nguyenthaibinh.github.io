@@ -26,6 +26,8 @@
   id: kdd2018
   link: http://www.kdd.org/kdd2018/
   deadline: "February 11, 2018"
+  notification: "May 06, 2018"
+  timezone: Alofi Time
   date: 19-23 August, 2018
   place: London, United Kingdom
   sub: DM
@@ -33,9 +35,11 @@
 - name: RecSys
   year: 2018
   id: recsys2018
-  link: http://icdm2018.org/
+  link: https://recsys.acm.org/recsys18/
+  abstract: "Apr 30th, 2018"
   deadline: "May 7, 2018"
-  timezone: US PDT
+  notification: "July 9th, 2018"
+  timezone: AoE
   date: October 2-7, 2018
   place: Vancouver, Canada
   sub: RM
@@ -46,6 +50,7 @@
   link: http://www.cikm2018.units.it/
   abstract: "May 15, 2018"
   deadline: "May 22, 2018"
+  notification: "August 6, 2018"
   date: 22 - 26 October 2018
   place: Turin, Italy
   sub: DM
@@ -77,7 +82,9 @@
   year: 2018
   id: iswc2018
   link: http://iswc2018.semanticweb.org/
+  abstract: "March 30, 2018"
   deadline: "April 6, 2018"
+  notification: "May 25, 2018"
   timezone: Hawaii time
   date: 8-12 October, 2018
   place: Monterey, California, USA
