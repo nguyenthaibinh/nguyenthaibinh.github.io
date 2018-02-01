@@ -106,7 +106,8 @@
           $('#{{conf.id}} .timer').countdown(confDate.toDate(), function(event) {
               $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
           });
-          $('#{{conf.id}} .deadline-time').html(confDate.toString());
+          var d = confDate.toDate().format("YYYYMMDD");
+          $('#{{conf.id}} .deadline-time').html(d);
 
           // check if date has passed, add 'past' class to it
           var today = moment();
