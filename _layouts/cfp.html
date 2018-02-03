@@ -106,9 +106,9 @@
           $('#{{conf.id}} .timer').countdown(confDate.toDate(), function(event) {
               $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
           });
-          //var d = confDate.toDate();
+          var d = confDate.toDate();
           //const dateformat = require('dateformat');
-          str = dateformat(confDate, 'dddd, mmmm dS, yyyy, h:MM:ss TT');
+          str = dateformat(d, 'dddd, mmmm dS, yyyy, h:MM:ss TT');
           $('#{{conf.id}} .deadline-time').html(str);
 
           // check if date has passed, add 'past' class to it
