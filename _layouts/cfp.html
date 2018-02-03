@@ -100,6 +100,7 @@
         {% else %}
           // adjust date according to deadline timezone
           var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
+          moment().format('ll');
           var confDate = moment.tz("{{conf.deadline}}", timezone);
 
           // render countdown timer
@@ -109,7 +110,7 @@
           // var d = confDate.toDate();
           //const dateformat = require('dateformat');
           //str = dateformat(now, 'dddd, mmmm dS, yyyy, h:MM:ss TT');
-          $('#{{conf.id}} .deadline-time').html(confDate);
+          $('#{{conf.id}} .deadline-time').html(confDate.toString());
 
           // check if date has passed, add 'past' class to it
           var today = moment();
