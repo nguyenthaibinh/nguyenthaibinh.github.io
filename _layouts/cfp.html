@@ -108,7 +108,7 @@
           });
           //var d = confDate.toDate();
           //const dateformat = require('dateformat');
-          str = dateformat(now, 'dddd, mmmm dS, yyyy, h:MM:ss TT');
+          str = dateformat(confDate, 'dddd, mmmm dS, yyyy, h:MM:ss TT');
           $('#{{conf.id}} .deadline-time').html(str);
 
           // check if date has passed, add 'past' class to it
