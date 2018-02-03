@@ -106,7 +106,7 @@
           $('#{{conf.id}} .timer').countdown(confDate.toDate(), function(event) {
               $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
           });
-          var d = confDate.toDate();
+          // var d = confDate.toDate();
           //const dateformat = require('dateformat');
           str = dateformat(now, 'dddd, mmmm dS, yyyy, h:MM:ss TT');
           $('#{{conf.id}} .deadline-time').html(str);
