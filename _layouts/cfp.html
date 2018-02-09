@@ -1,96 +1,92 @@
-<html>
-  {% include head_conf.html %}
-  <body>
-    {% include header.html %}
-    <!--<div class="top-strip"></div>-->
-    <div class="wrapper">
-    <div class="container">
-        <div class="page-header">
-            <div class="row">
-                <div class="col-xs-12 col-sm-8">
-                  <h1>
-                    AI Call for Papers <a href="https://twitter.com/share" class="twitter-share-button" data-text="{{site.description}} #machinelearning " data-show-count="false" style="font-size:13px;">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    <iframe src="https://ghbtns.com/github-btn.html?user=abhshkdz&repo=ai-deadlines&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
-                  </h1>
-                </div>
-                <div class="meta col-xs-12">
-                  {{ site.description }}
-                  To add/update a conference, <a target="_blank" href="//github.com/abhshkdz/ai-deadlines">send in a pull request</a>.
-                </div>
+---
+layout: default
+---
+<div class="container">
+    <div class="page-header">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8">
+              <h1>
+                AI Call for Papers <a href="https://twitter.com/share" class="twitter-share-button" data-text="{{site.description}} #machinelearning " data-show-count="false" style="font-size:13px;">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <iframe src="https://ghbtns.com/github-btn.html?user=abhshkdz&repo=ai-deadlines&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+              </h1>
             </div>
-            <br>
-            <div class="row">
-              <div class="col-xs-12">
-                <!-- <div class="well"> -->
-                  <form class="form-horizontal">
-                    <div class="form-group">
-                      <div class="col-md-2 col-xs-5">
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox" id="RS-checkbox">Recommender Systems
-                          </label>
-                        </div>
-                      </div>
-                      <div class="col-md-2 col-xs-5">
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox" id="ML-checkbox">Machine Learning
-                          </label>
-                        </div>
-                      </div>
-                      <div class="col-md-2 col-xs-5">
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox" id="DM-checkbox">Data Mining
-                          </label>
-                        </div>
-                      </div>
-                      <div class="col-md-2 col-xs-5">
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox" id="IR-checkbox">Information Retrieval
-                          </label>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
-                <!-- </div> -->
-              </div>
+            <div class="meta col-xs-12">
+              {{ site.description }}
+              To add/update a conference, <a target="_blank" href="//github.com/abhshkdz/ai-deadlines">send in a pull request</a>.
             </div>
         </div>
-        {% for conf in site.data.conferences %}
-        <div id="{{conf.id}}" class="{{conf.sub}}-conf">
-          <div class="row">
-              <div class="col-xs-12 col-sm-6">
-                  <a class="underline" href="{{conf.link}}" target="_blank"><b>{{conf.name}} {{conf.year}}</b></a>
-                  <div class="meta">
-                    {{conf.date}} // <a href="http://maps.google.com/?q={{conf.place}}" target="_blank">{{conf.place}}</a>
+        <br>
+        <div class="row">
+          <div class="col-xs-12">
+            <!-- <div class="well"> -->
+              <form class="form-horizontal">
+                <div class="form-group">
+                  <div class="col-md-2 col-xs-5">
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" id="RS-checkbox">Recommender Systems
+                      </label>
+                    </div>
                   </div>
-              </div>
-              <div class="col-xs-12 col-sm-6">
-                <span class="timer"></span>
-                <div class="deadline" id="abstract">
-                  <div><b>Abstract deadline</b>:
-                    <span class="abstract-time"></span>
+                  <div class="col-md-2 col-xs-5">
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" id="ML-checkbox">Machine Learning
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-xs-5">
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" id="DM-checkbox">Data Mining
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-xs-5">
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" id="IR-checkbox">Information Retrieval
+                      </label>
+                    </div>
                   </div>
                 </div>
-                <div class="deadline">
-                  <div><b>Deadline</b>:
-                    <span class="deadline-time"></span>
-                  </div>
-                </div>
-                <div class="deadline" id="notification">
-                  <div><b>Notification</b>:
-                    <span class="notification-time"></span>
-                  </div>
-                </div>
+              </form>
+            <!-- </div> -->
+          </div>
+        </div>
+    </div>
+    {% for conf in site.data.conferences %}
+    <div id="{{conf.id}}" class="{{conf.sub}}-conf">
+      <div class="row">
+          <div class="col-xs-12 col-sm-6">
+              <a class="underline" href="{{conf.link}}" target="_blank"><b>{{conf.name}} {{conf.year}}</b></a>
+              <div class="meta">
+                {{conf.date}} // <a href="http://maps.google.com/?q={{conf.place}}" target="_blank">{{conf.place}}</a>
               </div>
           </div>
-          <hr>
-        </div>
-        {% endfor %}
+          <div class="col-xs-12 col-sm-6">
+            <span class="timer"></span>
+            <div class="deadline" id="abstract">
+              <div><b>Abstract deadline</b>:
+                <span class="abstract-time"></span>
+              </div>
+            </div>
+            <div class="deadline">
+              <div><b>Deadline</b>:
+                <span class="deadline-time"></span>
+              </div>
+            </div>
+            <div class="deadline" id="notification">
+              <div><b>Notification</b>:
+                <span class="notification-time"></span>
+              </div>
+            </div>
+          </div>
+      </div>
+      <hr>
     </div>
-  </div>
+    {% endfor %}
+</div>
     <script type="text/javascript" charset="utf-8">
     $(function() {
         {% for conf in site.data.conferences %}
@@ -201,10 +197,3 @@
       ga('create', '{{ site.ga_id }}', 'auto');
       ga('send', 'pageview');
     </script>
-    <main class="page-footer">
-      <div class="wrapper">
-    {% include footer.html %}
-    </div>
-    </main>
-  </body>
-</html>
