@@ -82,8 +82,6 @@ layout: default
           var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
           var confDate = moment.tz("{{conf.deadline}}", timezone);
 
-          var mm = moment().utc(confDate, "DD-MM-YYYY hh:mm" );
-
           // render countdown timer
           $('#{{conf.id}} .timer').countdown(confDate.toDate(), function(event) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
@@ -128,8 +126,7 @@ layout: default
           // $('#{{conf.id}} .abstract-time').html("This is not a date");
           $('#{{conf.id}} #abstract').addClass('hidden');
           else
-            var mm = moment().utc(absDate, "DD-MM-YYYY hh:mm" );
-            $('#{{conf.id}} .abstract-time').html(mm.format("LLL"));
+            $('#{{conf.id}} .abstract-time').html(absDate.format("LLL"));
         {% endif %}
 
         {% if conf.notification == "TBA" %}
@@ -138,8 +135,7 @@ layout: default
           // adjust date according to deadline timezone
           var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
           var notiDate = moment.tz("{{conf.notification}}", timezone);
-          var mm = moment().utc(notiDate, "DD-MM-YYYY hh:mm" );
-          $('#{{conf.id}} .notification-time').html(mm.format("LLL"));
+          $('#{{conf.id}} .notification-time').html(notiDate.format("LLL"));
         {% endif %}
 
         {% endfor %}
