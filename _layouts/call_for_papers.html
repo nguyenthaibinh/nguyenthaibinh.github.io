@@ -82,7 +82,7 @@ layout: default
           var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
           var confDate = moment.tz("{{conf.deadline}}", timezone);
 
-          var mm = moment().utc( confDate, "DD-MM-YYYY" );
+          var mm = moment().utc( confDate, "DD-MM-YYYY hh:mm" );
 
           // render countdown timer
           $('#{{conf.id}} .timer').countdown(confDate.toDate(), function(event) {
