@@ -86,6 +86,7 @@ layout: default
           $('#{{conf.id}} .timer').countdown(confDate.toDate(), function(event) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
           });
+          moment.locale('ja');
           $('#{{conf.id}} .deadline-time').html(confDate.format("LLLL"));
 
           // add calendar button
