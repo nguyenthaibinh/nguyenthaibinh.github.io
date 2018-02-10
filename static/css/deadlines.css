@@ -1,6 +1,17 @@
+body {
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 300;
+  /* color: #333; */
+}
+
 body *::selection {
   background: #e74c3c;
   color: #fff;
+}
+
+.container {
+  max-width: 980px;
 }
 
 .top-strip {
@@ -53,7 +64,7 @@ p {
   text-align: justify;
 }
 
-a.underline {
+a {
   text-decoration: none;
   border-bottom: 1px solid #ccc;
   color: inherit;
@@ -87,10 +98,6 @@ footer {
   opacity: 0.5;
 }
 
-.hidden {
-  visibility: hidden;
-}
-
 .deadline, .meta {
   font-size: 13px;
 }
@@ -101,4 +108,21 @@ footer {
 
 .checkbox {
   font-size: 12px;
+}
+
+.calendar {
+  font-size: 12px;
+  margin-bottom: -5px;
+}
+
+.calendar img {
+  margin-right: 5px;
+}
+
+.ind-cal {
+  margin: 0 5px;
+}
+
+.calendar img {
+  height: 20px;
 }
