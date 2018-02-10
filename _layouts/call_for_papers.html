@@ -122,13 +122,13 @@ layout: default
         {% else %}
           // adjust date according to deadline timezone
           var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
-          var confDate = moment.tz("{{conf.abstract}}", timezone);
-          absDate = confDate.toString()
-            if (absDate == "Invalid date")
+          var absDate = moment.tz("{{conf.abstract}}", timezone);
+          absDateStr = absDate.toString()
+            if (absDateStr == "Invalid date")
           // $('#{{conf.id}} .abstract-time').html("This is not a date");
           $('#{{conf.id}} #abstract').addClass('hidden');
           else
-            var mm = moment().utc(confDate, "DD-MM-YYYY hh:mm" );
+            var mm = moment().utc(absDate, "DD-MM-YYYY hh:mm" );
             $('#{{conf.id}} .abstract-time').html(mm.format("LLL"));
         {% endif %}
 
@@ -137,8 +137,8 @@ layout: default
         {% else %}
           // adjust date according to deadline timezone
           var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
-          var confDate = moment.tz("{{conf.notification}}", timezone);
-          var mm = moment().utc(confDate, "DD-MM-YYYY hh:mm" );
+          var notiDate = moment.tz("{{conf.notification}}", timezone);
+          var mm = moment().utc(notiDate, "DD-MM-YYYY hh:mm" );
           $('#{{conf.id}} .notification-time').html(mm.format("LLL"));
         {% endif %}
 
