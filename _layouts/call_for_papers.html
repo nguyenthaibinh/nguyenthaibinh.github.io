@@ -86,7 +86,7 @@ layout: default
           $('#{{conf.id}} .timer').countdown(confDate.toDate(), function(event) {
             $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
           });
-          $('#{{conf.id}} .deadline-time').html(confDate.format("LLL"));
+          $('#{{conf.id}} .deadline-time').html(confDate.format("LLLL"));
 
           // add calendar button
           var myCalendar = createCalendar({
@@ -126,7 +126,7 @@ layout: default
           // $('#{{conf.id}} .abstract-time').html("This is not a date");
           $('#{{conf.id}} #abstract').addClass('hidden');
           else
-            $('#{{conf.id}} .abstract-time').html(absDate.format("LLL"));
+            $('#{{conf.id}} .abstract-time').html(absDate.format("LLLL"));
         {% endif %}
 
         {% if conf.notification == "TBA" %}
@@ -135,7 +135,7 @@ layout: default
           // adjust date according to deadline timezone
           var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
           var notiDate = moment.tz("{{conf.notification}}", timezone);
-          $('#{{conf.id}} .notification-time').html(notiDate.format("LLL"));
+          $('#{{conf.id}} .notification-time').html(notiDate.format("LLLL"));
         {% endif %}
 
         {% endfor %}
