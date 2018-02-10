@@ -49,9 +49,19 @@ layout: default
               </div>
               <div class="col-xs-12 col-sm-6">
                 <span class="timer"></span>
+                <div class="deadline" id="abstract">
+                  <div><b>Abstract deadline</b>:
+                  <span class="abstract-time"></span>
+                  </div>
+                </div>
                 <div class="deadline">
-                  <div>Deadline:
+                  <div><b>Deadline</b>:
                     <span class="deadline-time"></span>
+                  </div>
+                </div>
+                <div class="deadline" id="notification">
+                  <div><b>Notification</b>:
+                    <span class="notification-time"></span>
                   </div>
                 </div>
                 <div class="calendar"></div>
@@ -108,6 +118,31 @@ layout: default
           if (today.diff(confDate) > 0)
             $('#{{conf.id}}').addClass('past');
         {% endif %}
+
+        {% if conf.abstract == "TBA" %}
+          $('#{{conf.id}} .abstract-time').html("TBA");
+        {% else %}
+          // adjust date according to deadline timezone
+          var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
+          var confDate = moment.tz("{{conf.abstract}}", timezone);
+          absDate = confDate.toString()
+            if (absDate == "Invalid date")
+          // $('#{{conf.id}} .abstract-time').html("This is not a date");
+          $('#{{conf.id}} #abstract').addClass('hidden');
+          else
+            $('#{{conf.id}} .abstract-time').html(absDate);
+        {% endif %}
+
+        {% if conf.notification == "TBA" %}
+          $('#{{conf.id}} .notification-time').html("TBA");
+        {% else %}
+          // adjust date according to deadline timezone
+          var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
+          var confDate = moment.tz("{{conf.notification}}", timezone);
+
+          $('#{{conf.id}} .notification-time').html(confDate.toString());
+        {% endif %}
+
         {% endfor %}
 
         // Set checkboxes
