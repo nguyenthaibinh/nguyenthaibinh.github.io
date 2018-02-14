@@ -41,7 +41,7 @@ layout: default
         <div id="{{conf.id}}" class="{% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
           <div class="row">
               <div class="col-xs-12 col-sm-6">
-                  <a href="{{conf.link}}"><b>{{conf.name}} {{conf.year}}</b></a>
+                  <a href="{{conf.link}}" target="_blank"><b>{{conf.name}} {{conf.year}}</b></a>
                   <div class="meta">
                     {{conf.date}} // <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>
                   </div>
