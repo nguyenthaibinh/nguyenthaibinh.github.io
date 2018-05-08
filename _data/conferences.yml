@@ -117,7 +117,7 @@
 
 - name: ICDE (round 1)
   year: 2019
-  id: icde2019
+  id: icde2019_1
   link: http://conferences.cis.umac.mo/icde2019/
   abstract: "May 25, 2018"
   deadline: "Jun 1, 2018"
@@ -129,7 +129,7 @@
 
 - name: ICDE (round 2)
   year: 2019
-  id: icde2019
+  id: icde2019_2
   link: http://conferences.cis.umac.mo/icde2019/
   abstract: "September 28, 2018"
   deadline: "October 5, 2018"
