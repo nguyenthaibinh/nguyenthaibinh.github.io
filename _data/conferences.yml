@@ -90,3 +90,76 @@
   place: Monterey, California, USA
   sub: DM
 
+- name: AAAI
+  year: 2019
+  id: aaai2019
+  link: https://aaai.org/Conferences/AAAI-19
+  abstract: "Sep 1, 2018"
+  deadline: "Sep 15, 2018"
+  notification: "Nov 1, 2018"
+  timezone: Hawaii time
+  date: Jan 27, 2019 - Feb 1, 2019
+  place: Honolulu, Hawaii, USA
+  sub: ML
+
+- name: WSDM
+  year: 2019
+  id: wsdm2019
+  link: http://www.wsdm-conference.org/2019/
+  abstract: "Aug 8, 2018"
+  deadline: "Aug 14, 2018"
+  notification: "Oct 24, 2018"
+  timezone: Hawaii time
+  date: 11-15 Feb, 2019
+  place: Melbourne, Australia
+  sub: DM
+
+- name: WSDM
+  year: 2019
+  id: wsdm2019
+  link: http://www.wsdm-conference.org/2019/
+  abstract: "Aug 8, 2018"
+  deadline: "Aug 14, 2018"
+  notification: "Oct 24, 2018"
+  timezone: Hawaii time
+  date: 11-15 Feb, 2019
+  place: Melbourne, Australia
+  sub: DM
+
+- name: ICDE
+  year: 2019
+  id: icde2019
+  link: http://conferences.cis.umac.mo/icde2019/
+  abstract: "May 25, 2018"
+  deadline: "Jun 1, 2018"
+  notification: "Aug 10, 2018"
+  timezone: Hawaii time
+  date: 8-12 Apr, 2019
+  place: Macau SAR, China
+  sub: DM
+
+- name: WWW
+  year: 2019
+  id: www2019
+  link: https://www2019.thewebconf.org/
+  abstract: "Oct 29, 2018"
+  deadline: "Nov 05, 2018"
+  notification: "Jan 21, 2019"
+  timezone: Hawaii time
+  date: May 13-17, 2019
+  place: San Francisco, USA
+  sub: DM
+
+- name: ECIR
+  year: 2019
+  id: ecir2019
+  link: http://ecir2019.org/
+  abstract: "October 9, 2018"
+  deadline: "December 4, 2018"
+  notification: "Jan 21, 2019"
+  timezone: Hawaii time
+  date: 14-18 April, 2019
+  place: Cologne, Germany
+  sub: IR
+
+
