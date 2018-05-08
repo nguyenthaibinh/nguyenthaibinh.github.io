@@ -113,9 +113,6 @@ layout: default
           // check if date has passed, add 'past' class to it
           var today = moment();
           if (today.diff(confDate) > 0)
-            $('#{{conf.id}}').addClass('past');
-          {% endif %}
-          if (today.diff(confDate) > 30)
             $('#{{conf.id}}').addClass('hidden');
           {% endif %}
 
