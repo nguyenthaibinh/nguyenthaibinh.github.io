@@ -114,8 +114,10 @@ layout: default
           var today = moment();
           if (today.diff(confDate) > 15)
             $('#{{conf.id}}').addClass('hidden');
-          {% elseif (today.diff(confDate) > 0) %}
-            $('#{{conf.id}}').addClass('past');
+          {% else %}
+            if (today.diff(confDate) > 0)
+              $('#{{conf.id}}').addClass('past');
+            {% endif %}
           {% endif %}
 
         {% if conf.abstract == "TBA" %}
