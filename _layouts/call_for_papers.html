@@ -112,8 +112,10 @@ layout: default
 
           // check if date has passed, add 'past' class to it
           var today = moment();
-          if (today.diff(confDate) > 0)
+          if (today.diff(confDate) > 15)
             $('#{{conf.id}}').addClass('hidden');
+          {% elseif (today.diff(confDate) > 0) %}
+            $('#{{conf.id}}').addClass('past');
           {% endif %}
 
         {% if conf.abstract == "TBA" %}
