@@ -56,6 +56,18 @@
   place: Turin, Italy
   sub: DM
 
+- name: ICDE (round 1)
+  year: 2019
+  id: icde2019_1
+  link: http://conferences.cis.umac.mo/icde2019/
+  abstract: "May 25, 2018"
+  deadline: "Jun 1, 2018"
+  notification: "Aug 10, 2018"
+  timezone: Hawaii time
+  date: 8-12 Apr, 2019
+  place: Macau SAR, China
+  sub: DM
+
 - name: ICDM
   year: 2018
   id: icdm2018
@@ -91,18 +103,6 @@
   place: Monterey, California, USA
   sub: DM
 
-- name: AAAI
-  year: 2019
-  id: aaai2019
-  link: https://aaai.org/Conferences/AAAI-19
-  abstract: "Sep 1, 2018"
-  deadline: "Sep 15, 2018"
-  notification: "Nov 1, 2018"
-  timezone: Hawaii time
-  date: Jan 27, 2019 - Feb 1, 2019
-  place: Honolulu, Hawaii, USA
-  sub: ML
-
 - name: WSDM
   year: 2019
   id: wsdm2019
@@ -115,17 +115,17 @@
   place: Melbourne, Australia
   sub: DM
 
-- name: ICDE (round 1)
+- name: AAAI
   year: 2019
-  id: icde2019_1
-  link: http://conferences.cis.umac.mo/icde2019/
-  abstract: "May 25, 2018"
-  deadline: "Jun 1, 2018"
-  notification: "Aug 10, 2018"
+  id: aaai2019
+  link: https://aaai.org/Conferences/AAAI-19
+  abstract: "Sep 1, 2018"
+  deadline: "Sep 15, 2018"
+  notification: "Nov 1, 2018"
   timezone: Hawaii time
-  date: 8-12 Apr, 2019
-  place: Macau SAR, China
-  sub: DM
+  date: Jan 27, 2019 - Feb 1, 2019
+  place: Honolulu, Hawaii, USA
+  sub: ML
 
 - name: ICDE (round 2)
   year: 2019
