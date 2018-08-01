@@ -119,8 +119,8 @@
   year: 2019
   id: aaai2019
   link: https://aaai.org/Conferences/AAAI-19
-  abstract: "Sep 1, 2018"
-  deadline: "Sep 15, 2018"
+  abstract: "Aug 30, 2018"
+  deadline: "Sep 5, 2018"
   notification: "Nov 1, 2018"
   timezone: Hawaii time
   date: Jan 27, 2019 - Feb 1, 2019
@@ -131,8 +131,8 @@
   year: 2019
   id: icde2019_2
   link: http://conferences.cis.umac.mo/icde2019/
-  abstract: "September 28, 2018"
-  deadline: "October 5, 2018"
+  abstract: "September 8, 2018"
+  deadline: "October 15, 2018"
   notification: "December 14, 2018"
   timezone: Hawaii time
   date: 8-12 Apr, 2019
@@ -162,5 +162,17 @@
   date: 14-18 April, 2019
   place: Cologne, Germany
   sub: IR
+
+- name: SDM
+  year: 2019
+  id: sdm2019
+  link: https://www.siam.org/conferences/CM/Main/sdm19
+  abstract: "October 5, 2018"
+  deadline: "October 12, 2018"
+  notification: "Jan 15, 2019"
+  timezone: EDT time
+  date: 2-4 May, 2019
+  place: Calgary, Alberta, Canada
+  sub: DM
 
 
