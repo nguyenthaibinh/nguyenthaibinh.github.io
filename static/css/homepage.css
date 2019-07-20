@@ -14,6 +14,11 @@
   min-height: 1px;
   overflow: hidden;
 }
+
+ul.publications li{
+  margin-top: 5px;
+}
+
 @media (min-width: 992px){
   .col-md-1 {
     width: 25%;
