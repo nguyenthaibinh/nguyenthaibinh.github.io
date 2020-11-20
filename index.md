@@ -5,7 +5,7 @@ Email: x@y (where x=b.nguyen and y=deakin.edu.au).
 
 I am a postdoctoral researcher at <a href="https://a2i2.deakin.edu.au">Applied AI Institute (A2I2)</a>, <a href="https://www.deakin.edu.au">Deakin University</a>, working on Deep learning and its applications.
 
-I completed my Ph.D in Recommender Systems and Deep Learning at the <a href="http://www.nii.ac.jp/graduate/en/">National Institute of Informatics (NII)</a>, Japan. Previously, I received my master in Text mining at the <a href="https://www.jaist.ac.jp/english/">Japan Advanced Institute of Science and Technology (JAIST)</a>, Japan, and my bachelor degree in Computer science at the <a href="https://en.hust.edu.vn/home">Hanoi University of Science and Technology (HUST)</a>, Vietnam.
+I completed my Ph.D in Informatics at the <a href="http://www.nii.ac.jp/graduate/en/">National Institute of Informatics (NII)</a>, Japan. Previously, I received my master in Text mining at the <a href="https://www.jaist.ac.jp/english/">Japan Advanced Institute of Science and Technology (JAIST)</a>, Japan, and my bachelor degree in Computer science at the <a href="https://en.hust.edu.vn/home">Hanoi University of Science and Technology (HUST)</a>, Vietnam.
 
 ## Publications
 1. Ngo Van Linh, Duc Anh Nguyen, <u>ThaiBinh Nguyen</u> and Khoat Than (2020). <a href="https://ieeexplore.ieee.org/document/9091827" target="_blank">Neural Poisson Factorization</a>. In *IEEE Access, vol. 8, pp. 106395-106407*, 2020.
