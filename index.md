@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+# Binh Nguyen
 Email: x@y (where x=b.nguyen and y=deakin.edu.au).
 
 I am a postdoctoral researcher at <a href="https://a2i2.deakin.edu.au">Applied AI Institute (A2I2)</a>, <a href="https://www.deakin.edu.au">Deakin University</a>, working on Deep learning and its applications.
