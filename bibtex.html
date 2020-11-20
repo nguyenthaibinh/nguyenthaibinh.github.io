@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title></title>
+<meta name="description" content="Last updated October, 2017 by Binh Nguyen">
+
+<link rel="stylesheet" href="/assets/main.css">
+<link rel="canonical" href="/">
+<link rel="alternate" type="application/rss+xml" title="Binh Nguyen" href="/feed.xml">
+
+<style type="text/css">
+  body {
+    overflow-y: scroll;
+  }
+  div, p{
+    display: block;
+  }
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  .col-md-1, .col-md-2{
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 1px;
+  overflow: hidden;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.col-xs-12 {
+    width: 100%;
+}
+
+ul.publications li{
+  margin-top: 10px;
+}
+
+.nav-menu{
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.radio label, .checkbox label {
+    min-height: 23px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: normal;
+    cursor: pointer;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+
+@media (min-width: 768px){
+  .col-md-1 {
+    width: 25%;
+    margin-right: 20px;
+  }
+  .col-md-2, .col-md-info {
+    width: 65%;
+  }
+  .col-md-1, .col-md-2, .col-md-info{
+    float: left;
+  }
+
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+}
+
+.bibtex-entry{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.row {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+@media (min-width: 992px){
+  .col-md-2 {
+      width: 16.66666667%;
+  }
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+}
+
+input[type="checkbox"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+    position: relative;
+    border: none;
+    margin-bottom: -4px;
+    cursor: pointer;
+}
+
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="radio"], .checkbox-inline input[type="radio"], .radio input[type="checkbox"], .radio-inline input[type="checkbox"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+    margin-left: -25px;
+}
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 4px \9;
+}
+input[type="radio"], input[type="checkbox"] {
+    margin: 4px 0 0;
+    margin-top: 1px \9;
+    line-height: normal;
+}
+input[type="checkbox"], input[type="radio"] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix:after, .dl-horizontal dd:after, .container:after, .container-fluid:after, .row:after, .form-horizontal .form-group:after, .btn-toolbar:after, .btn-group-vertical>.btn-group:after, .nav:after, .navbar:after, .navbar-header:after, .navbar-collapse:after, .pager:after, .panel-body:after, .modal-header:after, .modal-footer:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical>.btn-group:before, .btn-group-vertical>.btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-header:before, .modal-header:after, .modal-footer:before, .modal-footer:after {
+    content: " ";
+    display: table;
+}
+
+.form-horizontal .radio, .form-horizontal .checkbox {
+    min-height: 30px;
+}
+.form-horizontal .radio, .form-horizontal .checkbox, .form-horizontal .radio-inline, .form-horizontal .checkbox-inline {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 7px;
+}
+.checkbox {
+    font-size: 12px;
+}
+.radio, .checkbox {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.deadline, .meta {
+    font-size: 13px;
+}
+div, p {
+    display: block;
+}
+
+@media print
+{
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+</style>
+
+<body>
+
+<h1>This is the bibtex for Binh Nguyen's publications</h1>
+
+<div class="bibtex-entry" id="nguyen2018npe">
+@inproceedings{nguyen2018npe, <br>
+&emsp; title={NPE: neural personalized embedding for collaborative filtering},<br>
+&emsp; author={Nguyen, ThaiBinh and Takasu, Atsuhiro},<br>
+&emsp; booktitle={Proceedings of the 27th International Joint Conference on Artificial Intelligence},<br>
+&emsp; pages={1583--1589},<br>
+&emsp; year={2018},<br>
+&emsp; organization={AAAI Press}<br>
+}
+</div>
+
+<div class="bibtex-entry" id="nguyen2017collaborative">
+@inproceedings{nguyen2017collaborative,<br>
+  &emsp; title={Collaborative item embedding model for implicit feedback data},<br>
+  &emsp; author={Nguyen, ThaiBinh and Aihara, Kenro and Takasu, Atsuhiro},<br>
+  &emsp; booktitle={International Conference on Web Engineering},<br>
+  &emsp; pages={336--348},<br>
+  &emsp; year={2017},<br>
+  &emsp; organization={Springer}<br>
+}
+</div>
+
+<div class="bibtex-entry" id="nguyen2017probabilistic">
+@inproceedings{nguyen2017probabilistic,<br>
+  &emsp; title={A probabilistic model for the cold-start problem in rating prediction using click data},<br>
+  &emsp; author={Nguyen, ThaiBinh and Takasu, Atsuhiro},<br>
+  &emsp; booktitle={International Conference on Neural Information Processing},<br>
+  &emsp; pages={196--205},<br>
+  &emsp; year={2017},<br>
+  &emsp; organization={Springer}<br>
+}
+</div>
+
+<div class="bibtex-entry" id="nguyen2017hierarchical">
+@inproceedings{nguyen2017hierarchical,<br>
+  &emsp; title={A Hierarchical Bayesian Factorization Model for Implicit and Explicit Feedback Data},<br>
+  &emsp; author={Nguyen, ThaiBinh and Takasu, Atsuhiro},<br>
+  &emsp; booktitle={International Conference on Advanced Data Mining and Applications},<br>
+  &emsp; pages={104--118},<br>
+  &emsp; year={2017},<br>
+  &emsp; organization={Springer}<br>
+}
+</div>
+</body>
+</html>
