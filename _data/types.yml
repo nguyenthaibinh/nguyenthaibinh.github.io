@@ -1,0 +1,9 @@
+---
+- name: Machine Learning
+  sub: ML
+- name: Data Mining
+  sub: DM
+- name: Recommender Systems
+  sub: RS
+- name: Information Retrieval
+  sub: IR
