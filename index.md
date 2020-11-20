@@ -2,6 +2,8 @@
 layout: default
 ---
 
+I am a postdoctoral researcher at <a href="https://a2i2.deakin.edu.au">Applied AI Institute (A2I2)</a>, <a href="https://www.deakin.edu.au">Deakin University</a>, working on Deep learning and its applications.
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
