@@ -24,3 +24,8 @@ I completed my Ph.D in Informatics at the <a href="http://www.nii.ac.jp/graduate
 1. <u>ThaiBinh Nguyen</u>, Atsuhiro Takasu (2017). <a href='papers/adma2017.pdf' target="_blank">A Hierarchical Bayesian Factorization Model for Implicit and Explicit Feedback Data</a>. In *The 13th International Conference on Advanced Data Mining and Applications (ADMA)*, Singapore. [<a href="bibtex.html#nguyen2017hierarchical">bibtex</a>].
 1. <u>Binh Nguyen</u>, Kenro Aihara, Atsuhiro Takasu (2015). <a href='papers/city_rec2015.pdf' target="_blank">City recommender system based on a latent topic model</a>. In *IEICE Technical Report, vol. 115, no. 381, AI2015-42, pp. 95-99*, Okinawa, Japan.
 1. <u>Nguyen, T.B.</u>, Ho, T.B., Pham, C., Kawasaki, S. (2007). <a href='papers/kss2007.pdf' target="_blank">Matching Complex Documents Using Tolerance Rough Set Model</a>. In *The 8th International Symposium on Knowledge and Systems Sciences (KSS07)*, pp.156-162, Ishikawa, Japan.
+
+## Professional Activities
+1. **Conference PC member**: RecSys 2018-2020.
+2. **Conference Reviewer**: ICML, NeurIPS, CVPR, ICDM, PAKDD.
+3. **Journal Reviewer**: Artifical Intelligence (Elsevier), Journal of Biomedical Informatics (Elsevier). 
