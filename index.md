@@ -6,7 +6,7 @@ Email: b.nguyen{@}deakin.edu.au and nguyenthaibinh{@}gmail.com.
 
 I am a Postdotoral Research Fellow at <a href="https://a2i2.deakin.edu.au">Applied AI Institute (A2I2)</a>, <a href="https://www.deakin.edu.au">Deakin University</a>, Australia. My research is focused on deep learning, and machine learning for multi-modal sequential data (e.g., video and correlated time series) and graph neural networks. Possible applications of my research include Healthcare (e.g., sensory data modeling, elder care), Urban planning (e.g., transportation data modeling, virus transmission modeling), Human behavior understanding from videos (e.g., action recognition).
 
-I completed my Ph.D in Informatics at the <a href="http://www.nii.ac.jp/graduate/en/">National Institute of Informatics (NII)</a>, Japan in 2019.
+I completed my Ph.D in Informatics at the <a href="http://www.nii.ac.jp/graduate/en/">National Institute of Informatics (NII)</a>, Japan, in 2019.
 
 ## News
 - **May 2021**: A paper accepted by IEEE Journal of Biomedical and Health Informatics (JBHI).
