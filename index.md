@@ -4,7 +4,7 @@ layout: default
 # Binh Nguyen
 Email: b.nguyen{@}deakin.edu.au and nguyenthaibinh{@}gmail.com.
 
-I am a research scientist at <a href="https://a2i2.deakin.edu.au">Applied AI Institute (A2I2)</a>, <a href="https://www.deakin.edu.au">Deakin University</a>. My research interests focus on deep learning, computer vision, and time series modeling with the application in healthcare.
+I am a research scientist at <a href="https://a2i2.deakin.edu.au">Applied AI Institute (A2I2)</a>, <a href="https://www.deakin.edu.au">Deakin University</a>. My research interests focus on deep learning, computer vision, and time series modeling.
 
 I completed my Ph.D in Informatics at the <a href="http://www.nii.ac.jp/graduate/en/">National Institute of Informatics (NII)</a>, Japan. Previously, I received my master in Text mining at the <a href="https://www.jaist.ac.jp/english/">Japan Advanced Institute of Science and Technology (JAIST)</a>, Japan, and my bachelor degree in Computer science at the <a href="https://en.hust.edu.vn/home">Hanoi University of Science and Technology (HUST)</a>, Vietnam.
 
