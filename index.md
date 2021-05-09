@@ -8,6 +8,12 @@ I am a research scientist at <a href="https://a2i2.deakin.edu.au">Applied AI Ins
 
 I completed my Ph.D in Informatics at the <a href="http://www.nii.ac.jp/graduate/en/">National Institute of Informatics (NII)</a>, Japan. Previously, I received my master in Text mining at the <a href="https://www.jaist.ac.jp/english/">Japan Advanced Institute of Science and Technology (JAIST)</a>, Japan, and my bachelor degree in Computer science at the <a href="https://en.hust.edu.vn/home">Hanoi University of Science and Technology (HUST)</a>, Vietnam.
 
+## News
+- **May 2021**: A paper accepted by IEEE Journal of Biomedical and Health Informatics (JBHI).
+- **Apr 2021**: A patent published in the US.
+- **Apr 2021**: A patent granted in Japan.
+- **Apr 2020**: I joined Applied AI Institute, Deakin University (Australia) as an Postdoctoral Research Fellow.
+
 ## Hornors and Awards
 1. **Best Student Award** (2018): by the National Institute of Informatics, Japan.
 2. **Travel Grant** (2018): by the Research Organization of Information and Systems (ROIS), Japan to participate in the IJCAI-ECAI 2018 (the 27th International Joint Conference on Artificial Intelligence and the 23rd European Conference on Artificial Intelligence).
