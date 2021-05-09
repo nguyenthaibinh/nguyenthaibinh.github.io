@@ -33,5 +33,5 @@ I completed my Ph.D in Informatics at the <a href="http://www.nii.ac.jp/graduate
 
 ## Professional Activities
 1. **Conference PC member**: RecSys 2018-2020.
-2. **Conference Reviewer**: ICML, NeurIPS, CVPR, ICDM, PAKDD.
+2. **Conference Reviewer**: CVPR 2021, NeurIPS 2020, ICML 2020-2021, IJCAI 2019, ICDM 2019.
 3. **Journal Reviewer**: Artifical Intelligence (Elsevier), Journal of Biomedical Informatics (Elsevier). 
