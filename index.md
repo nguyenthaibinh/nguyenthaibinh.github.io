@@ -23,15 +23,46 @@ I completed my Ph.D in Informatics at the <a href="http://www.nii.ac.jp/graduate
 ## Publications
 ### <a href='https://ieeexplore.ieee.org/document/9425001' target="_blank">A Spatio-temporal Attention-based Model for Infant Movement Assessment from Videos</a>
 <u>Binh Nguyen-Thai</u>, Vuong Le, Catherine Morgan, Nadia Badawi, Truyen Tran, and Svetha Venkatesh
-*IEEE Journal of Biomedical and Health Informatics* (**JBHI**) (2021). [<a href="bibtex.html#stam2021">bibtex</a>][<a href="https://github.com/nguyenthaibinh/stam" target="_blank">code</a>].
-3. Ngo Van Linh, Duc Anh Nguyen, <u>ThaiBinh Nguyen</u> and Khoat Than (2020). <a href="https://ieeexplore.ieee.org/document/9091827" target="_blank">Neural Poisson Factorization</a>. In **IEEE Access**, 2020.
-4. <u>ThaiBinh Nguyen</u>, Atsuhiro Takasu (2019). <a href='https://arxiv.org/pdf/1811.01166' target="_blank">Learning Representations from Product Titles for Modeling Shopping Transactions</a>. In *AAAI-19 Workshop on Recommender Systems and Natural Language Processing* (**RecNLP**), Honolulu, Hawaii, United States.
-5. <u>ThaiBinh Nguyen</u>, Atsuhiro Takasu (2018). <a href='papers/npe_ijcai18.pdf' target="_blank">NPE: Neural Personalized Embedding for Collaborative Filtering</a>. In *the 27th International Joint Conference on Artificial Intelligence and the 23rd European Conference on Artificial Intelligence* (**IJCAI-ECAI 2018**), Stockholm, Sweden. <!--[<a href="https://github.com/nguyenthaibinh/NPE"  target="_blank">code</a>]-->[<a href="bibtex.html#nguyen2018npe">bibtex</a>].
-6. <u>ThaiBinh Nguyen</u>, Kenro Aihara, Atsuhiro Takasu (2017). <a href='papers/icwe2017.pdf' target="_blank">Collaborative Item Embedding Model for Implicit Feedback Data</a>. In *The 17th International Conference on Web Engineering* (**ICWE**), Rome, Italy. [<a href="bibtex.html#nguyen2017collaborative">bibtex</a>].
-7. <u>ThaiBinh Nguyen</u>, Atsuhiro Takasu (2017). <a href='papers/iconip2017.pdf' target="_blank">A Probabilistic Model for the Cold-Start Problem in Rating Prediction using Click Data</a>. In *The 24th International Conference on Neural Information Processing* (**ICONIP**), Guangzhou, China. [<a href="bibtex.html#nguyen2017probabilistic">bibtex</a>].
-8. <u>ThaiBinh Nguyen</u>, Atsuhiro Takasu (2017). <a href='papers/adma2017.pdf' target="_blank">A Hierarchical Bayesian Factorization Model for Implicit and Explicit Feedback Data</a>. In *The 13th International Conference on Advanced Data Mining and Applications* (**ADMA**), Singapore. [<a href="bibtex.html#nguyen2017hierarchical">bibtex</a>].
-9. <u>Binh Nguyen</u>, Kenro Aihara, Atsuhiro Takasu (2015). <a href='papers/city_rec2015.pdf' target="_blank">City recommender system based on a latent topic model</a>. In *IEICE Technical Report, vol. 115, no. 381, AI2015-42, pp. 95-99*, Okinawa, Japan.
-10. <u>Nguyen, T.B.</u>, Ho, T.B., Pham, C., Kawasaki, S. (2007). <a href='papers/kss2007.pdf' target="_blank">Matching Complex Documents Using Tolerance Rough Set Model</a>. In *The 8th International Symposium on Knowledge and Systems Sciences* (**KSS07**), pp.156-162, Ishikawa, Japan.
+
+*IEEE Journal of Biomedical and Health Informatics* (**JBHI**) (2021). [<a href="bibtex.html#stam2021">bibtex</a>][<a href="https://github.com/nguyenthaibinh/stam" target="_blank">code</a>]
+
+### <a href="https://ieeexplore.ieee.org/document/9091827" target="_blank">Neural Poisson Factorization</a>
+Ngo Van Linh, Duc Anh Nguyen, <u>ThaiBinh Nguyen</u> and Khoat Than (2020)
+
+*IEEE Access*, 2020.
+
+### <a href='https://arxiv.org/pdf/1811.01166' target="_blank">Learning Representations from Product Titles for Modeling Shopping Transactions</a>
+<u>ThaiBinh Nguyen</u>, Atsuhiro Takasu
+
+*AAAI-19 Workshop on Recommender Systems and Natural Language Processing* (**RecNLP**), 2019
+
+### <a href='papers/npe_ijcai18.pdf' target="_blank">NPE: Neural Personalized Embedding for Collaborative Filtering</a>
+<u>ThaiBinh Nguyen</u>, Atsuhiro Takasu
+
+*the 27th International Joint Conference on Artificial Intelligence and the 23rd European Conference on Artificial Intelligence* (**IJCAI-ECAI***), 2018 [<a href="bibtex.html#nguyen2018npe">bibtex</a>].
+
+### <a href='papers/icwe2017.pdf' target="_blank">Collaborative Item Embedding Model for Implicit Feedback Data</a>
+<u>ThaiBinh Nguyen</u>, Kenro Aihara, Atsuhiro Takasu
+
+*The 17th International Conference on Web Engineering* (**ICWE**), 2017 [<a href="bibtex.html#nguyen2017collaborative">bibtex</a>].
+ 
+### <a href='papers/iconip2017.pdf' target="_blank">A Probabilistic Model for the Cold-Start Problem in Rating Prediction using Click Data</a>
+<u>ThaiBinh Nguyen</u>, Atsuhiro Takasu  
+
+*The 24th International Conference on Neural Information Processing* (**ICONIP**), 2017 [<a href="bibtex.html#nguyen2017probabilistic">bibtex</a>]
+
+### <a href='papers/adma2017.pdf' target="_blank">A Hierarchical Bayesian Factorization Model for Implicit and Explicit Feedback Data</a>
+<u>ThaiBinh Nguyen</u>, Atsuhiro Takasu (2017)
+
+*The 13th International Conference on Advanced Data Mining and Applications* (**ADMA**), 2017 [<a href="bibtex.html#nguyen2017hierarchical">bibtex</a>].
+
+### <a href='papers/city_rec2015.pdf' target="_blank">City recommender system based on a latent topic model</a>
+<u>Binh Nguyen</u>, Kenro Aihara, Atsuhiro Takasu
+*IEICE Technical Report*, 2015.
+
+### <a href='papers/kss2007.pdf' target="_blank">Matching Complex Documents Using Tolerance Rough Set Model</a>
+<u>Nguyen, T.B.</u>, Ho, T.B., Pham, C., Kawasaki, S.
+*The 8th International Symposium on Knowledge and Systems Sciences* (**KSS07**), 2007.
 
 ## Professional Activities
 1. **Conference PC member**: RecSys 2018-2020.
