@@ -23,6 +23,7 @@ I completed my Ph.D in Informatics at the <a href="http://www.nii.ac.jp/graduate
 ## Publications
 ### <a href='https://ieeexplore.ieee.org/document/9425001' target="_blank">A Spatio-temporal Attention-based Model for Infant Movement Assessment from Videos</a>
 <u>Binh Nguyen-Thai</u>, Vuong Le, Catherine Morgan, Nadia Badawi, Truyen Tran, and Svetha Venkatesh
+
 *IEEE Journal of Biomedical and Health Informatics* (**JBHI**) (2021). [<a href="bibtex.html#stam2021">bibtex</a>][<a href="https://github.com/nguyenthaibinh/stam" target="_blank">code</a>]
 
 ### <a href="https://ieeexplore.ieee.org/document/9091827" target="_blank">Neural Poisson Factorization</a>
