@@ -24,12 +24,12 @@ I completed my Ph.D in Informatics at the <a href="http://www.nii.ac.jp/graduate
 ### <a href='https://ieeexplore.ieee.org/document/9425001' target="_blank">A Spatio-temporal Attention-based Model for Infant Movement Assessment from Videos</a>
 <u>Binh Nguyen-Thai</u>, Vuong Le, Catherine Morgan, Nadia Badawi, Truyen Tran, and Svetha Venkatesh
 
-*IEEE Journal of Biomedical and Health Informatics* (**JBHI**) (2021). [<a href="bibtex.html#stam2021">bibtex</a>][<a href="https://github.com/nguyenthaibinh/stam" target="_blank">code</a>]
+*IEEE Journal of Biomedical and Health Informatics* (**JBHI**) (2021) [<a href="bibtex.html#stam2021">bibtex</a>][<a href="https://github.com/nguyenthaibinh/stam" target="_blank">code</a>]
 
 ### <a href="https://ieeexplore.ieee.org/document/9091827" target="_blank">Neural Poisson Factorization</a>
 Ngo Van Linh, Duc Anh Nguyen, <u>ThaiBinh Nguyen</u> and Khoat Than (2020)
 
-*IEEE Access*, 2020.
+*IEEE Access*, 2020
 
 ### <a href='https://arxiv.org/pdf/1811.01166' target="_blank">Learning Representations from Product Titles for Modeling Shopping Transactions</a>
 <u>ThaiBinh Nguyen</u>, Atsuhiro Takasu
@@ -39,7 +39,7 @@ Ngo Van Linh, Duc Anh Nguyen, <u>ThaiBinh Nguyen</u> and Khoat Than (2020)
 ### <a href='papers/npe_ijcai18.pdf' target="_blank">NPE: Neural Personalized Embedding for Collaborative Filtering</a>
 <u>ThaiBinh Nguyen</u>, Atsuhiro Takasu
 
-*the 27th International Joint Conference on Artificial Intelligence and the 23rd European Conference on Artificial Intelligence* (**IJCAI-ECAI***), 2018 [<a href="bibtex.html#nguyen2018npe">bibtex</a>].
+*the 27th International Joint Conference on Artificial Intelligence and the 23rd European Conference on Artificial Intelligence* (**IJCAI-ECAI***), 2018 [<a href="bibtex.html#nguyen2018npe">bibtex</a>]
 
 ### <a href='papers/icwe2017.pdf' target="_blank">Collaborative Item Embedding Model for Implicit Feedback Data</a>
 <u>ThaiBinh Nguyen</u>, Kenro Aihara, Atsuhiro Takasu
@@ -58,11 +58,13 @@ Ngo Van Linh, Duc Anh Nguyen, <u>ThaiBinh Nguyen</u> and Khoat Than (2020)
 
 ### <a href='papers/city_rec2015.pdf' target="_blank">City recommender system based on a latent topic model</a>
 <u>Binh Nguyen</u>, Kenro Aihara, Atsuhiro Takasu
-*IEICE Technical Report*, 2015.
+
+*IEICE Technical Report*, 2015
 
 ### <a href='papers/kss2007.pdf' target="_blank">Matching Complex Documents Using Tolerance Rough Set Model</a>
 <u>Nguyen, T.B.</u>, Ho, T.B., Pham, C., Kawasaki, S.
-*The 8th International Symposium on Knowledge and Systems Sciences* (**KSS07**), 2007.
+
+*The 8th International Symposium on Knowledge and Systems Sciences* (**KSS07**), 2007
 
 ## Professional Activities
 1. **Conference PC member**: RecSys 2018-2020.
