@@ -37,7 +37,7 @@ Ngo Van Linh, Duc Anh Nguyen, <u>ThaiBinh Nguyen</u> and Khoat Than (2020)
 ### <a href='https://arxiv.org/pdf/1811.01166' target="_blank">Learning Representations from Product Titles for Modeling Shopping Transactions</a>
 <u>ThaiBinh Nguyen</u>, Atsuhiro Takasu
 
-*AAAI-19 Workshop on Recommender Systems and Natural Language Processing* (**RecNLP**), 2019
+*AAAI-19 Workshop on Recommender Systems and Natural Language Processing* (**RecNLP**), 2019 [<a href="bibtex.html#bastext2019">bibtex</a>]
 
 ### <a href='papers/npe_ijcai18.pdf' target="_blank">NPE: Neural Personalized Embedding for Collaborative Filtering</a>
 <u>ThaiBinh Nguyen</u>, Atsuhiro Takasu
