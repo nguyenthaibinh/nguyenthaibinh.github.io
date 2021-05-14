@@ -20,6 +20,9 @@ I completed my Ph.D in Informatics at the <a href="http://www.nii.ac.jp/graduate
 3. **Japanese Government Scholarship (MEXT)** (2015-2019): full scholarship from Japanese government to study PhD in Japan.
 4. **Panasonic Scholarship** (2005-2008): full scholarship from Panasonic corporation to study the master course in Japan.
 
+## Projects:
+- **AI Researcher**: Early Moves: A prospective cohort study to identify an early biomarker for cognitive impairment.
+
 ## Publications
 ### <a href='https://ieeexplore.ieee.org/document/9425001' target="_blank">A Spatio-temporal Attention-based Model for Infant Movement Assessment from Videos</a>
 <u>Binh Nguyen-Thai</u>, Vuong Le, Catherine Morgan, Nadia Badawi, Truyen Tran, and Svetha Venkatesh
@@ -29,7 +32,7 @@ I completed my Ph.D in Informatics at the <a href="http://www.nii.ac.jp/graduate
 ### <a href="https://ieeexplore.ieee.org/document/9091827" target="_blank">Neural Poisson Factorization</a>
 Ngo Van Linh, Duc Anh Nguyen, <u>ThaiBinh Nguyen</u> and Khoat Than (2020)
 
-*IEEE Access*, 2020
+*IEEE Access*, 2020 [<a href="bibtex.html#npf2020">bibtex</a>]
 
 ### <a href='https://arxiv.org/pdf/1811.01166' target="_blank">Learning Representations from Product Titles for Modeling Shopping Transactions</a>
 <u>ThaiBinh Nguyen</u>, Atsuhiro Takasu
