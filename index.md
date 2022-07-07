@@ -2,7 +2,7 @@
 layout: default
 ---
 # Binh Nguyen
-Email: b.nguyen{@}deakin.edu.au and nguyenthaibinh{@}gmail.com.
+Email: 'thaibinh.nguyen' + '@' + 'uws.ac.uk' and 'nguyenthaibinh' + '@' + 'gmail.com'.
 
 I am a Research Scientist at the University of the West of Scotland and Raven Controls. My research is focused on deep learning, and machine learning for Natural Language Processing and multi-modal sequential data (e.g., video and multivariate time series) and graph neural networks. Possible applications of my research include Healthcare (e.g., elder care), Human behavior understanding from videos (e.g., action recognition), Smart-Cities (e.g., traffic data modeling), .
 
